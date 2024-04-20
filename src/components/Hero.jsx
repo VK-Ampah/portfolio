@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+// import { ComputersCanvas } from "./canvas";
+import { StarsCanvas } from "./canvas";
 
 const Hero = () => {
   return (
@@ -14,18 +15,21 @@ const Hero = () => {
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
 
-        <div>
+        <div className="mb-10">
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I&apos;m <span className='text-[#915EFF]'>Valentine</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className='sm:block hidden' />
-            interfaces and web applications
+            I am a full-stack developer, with keen interest in budiling highly secured,<br className='sm:block hidden' />
+             robust and scalable big data solutions and <br className='sm:block hidden' />
+             web applications leveraging the power of cloud computing.
           </p>
         </div>
       </div>
 
-      <ComputersCanvas />
+      <StarsCanvas />
+
+      {/* <ComputersCanvas /> */}
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>

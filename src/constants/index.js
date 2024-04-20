@@ -19,10 +19,16 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  // carrent,
+  // jobit,
+  // tripguide,
   threejs,
+  awscloudfoundations,
+  awscloudarchitecting,
+  awsclouddev,
+  streamfy,
+  swipe,
+  onlinestore,
 } from "../assets";
 
 export const navLinks = [
@@ -38,26 +44,66 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  {
+    id: "certifications",
+    title: "Certifications",
+  },
+  {
+    id: "work",
+    title: "Experience",
+  },
+  {
+    id: "tech",
+    title: "Tech",
+  },
+  {
+    id: "feedbacks",
+    title: "References",
+  },
 ];
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full-Stack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Big Data Engineer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Cloud Architect",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Psychologist",
     icon: creator,
   },
 ];
+
+const certificates = [
+  {
+    title: "AWS Certified Solutions Architect",
+    icon: awscloudarchitecting,
+        url:"https://www.credly.com/badges/78f5aa97-95d1-48b3-a51e-b10710f559da/public_url"
+      },
+      {
+        title: "AWS Developer Associate",
+        icon: awsclouddev,
+        url:"https://www.credly.com/badges/e31a169f-d751-48de-b68c-cb9026767e41/public_url"
+
+
+  },
+  {
+    title: "AWS Certified Cloud Practitioner",  
+    icon: awscloudfoundations,
+    url: "https://www.credly.com/badges/3173203b-8765-4dd1-ad42-ffb050940170/public_url"
+  }
+];
+
+
+
+
 
 const technologies = [
   {
@@ -116,54 +162,57 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Software Enigeneer (Data)",
+    company_name: "D1g1t",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "May 2022 - Dec 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+    "Spearheaded the development of backend SQL functions and Python scripts for data transformation, significantly enhancing data reporting and analytics capabilities.",
+    "Employed GitHub Actions for CI/CD, markedly reducing integration errors and improving deployment efficiency.",
+    "Enhanced data model designs for complex reporting requirements, achieving a 25% improvement in efficiency.",
+    "Optimized SSRS reports and implemented best practices in SQL development for performance tuning.",
+    "Conducted regular technical training sessions for non-technical team members, improving collaboration and understanding of reporting feature implementation by 40%"
+
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Data Engineer",
+    company_name: "Staples",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+    date: "Feb 2020 - Jan 2022  ",
+    points: [ 
+    "Led cross-functional teams to build and optimize data flows using Azure Synapse and Databricks spark clusters, improving productivity by 20%",
+    "Designed automated ETL processes with Azure Data Factory, achieving seamless data integration and a 90% accuracy rate in data deployments",
+    "Conducted thorough data quality checks on source systems, to track and identify bugs in code ensuring about 90% deployment of valid data to the warehouse, maintaining integrity and reliability",
+    "Enhanced pipeline efficiency by utilizing Spark Structured Streaming API for micro-batch data ingestions within predefined time windows, optimizing data load and diminishing storage contention by 40%",
+    "Refined Spark codebase by implementing caching and minimizing shuffle operations through Broadcast joins and deduplication, accelerating processing speed by 60%"
     ],
   },
   {
-    title: "Web Developer",
+    title: "SQL Developer, Newark Community Health Center Inc	",
     company_name: "Shopify",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2016 - Dec 2018",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+"Developed and optimized Tableau reports, driving a 30% increase in data-driven decision-making.",
+"Streamlined the reporting process, resulting in a 25% faster turnaround for data insights.",
+"Defined Key Performance Indicators (KPIs) and metrics for performance tracking, resulting in improved business evaluation and alignment with strategic goals",
+"Resolved 60% of reporting and design issues, ensuring seamless data visualization and maintaining high data accuracy" 
     ],
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
+    company_name: "1949 Barber Shop",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developing and maintaining web applications using node js and other related technologies.",
+      "Collaborating with cross-functional teams including CEO, Team managers, to create a fully responsive web app.",
+      "Implementing user authentication with passport.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
@@ -198,12 +247,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Event Manager",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Event management platform that allows users to create, manage, and promote events, facilitating seamless event planning and execution.",
     tags: [
       {
-        name: "react",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
@@ -214,21 +263,34 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "typescript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "clerk",
+        color: "red-text-gradient",
+      },
+      {
+        name: "stripe",
+        color: "blue-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: streamfy,
+    source_code_link: "https://streamfy.vercel.app/",
+    github_link: "https://github.com/Proj-Valentine/event_platform",
   },
   {
-    name: "Job IT",
+    name: "Social App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Social media platform that allows users to create, share, and engage with content, fostering a sense of community and connection among users",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Appwritecloud",
         color: "green-text-gradient",
       },
       {
@@ -236,20 +298,21 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: swipe,
+    source_code_link: "https://swipe.vkampah-app.com/sign-in",
+    github_link: "https://github.com/Proj-Valentine/mymobileapp",
   },
   {
-    name: "Trip Guide",
+    name: "eCommerce Platform",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "online clothing store that allows users to browse, search, and purchase products, providing a seamless shopping experience for customers.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Tailwind CSS",
         color: "green-text-gradient",
       },
       {
@@ -257,9 +320,10 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: onlinestore,
+    source_code_link: "https://main.d2zkxheui2vt8a.amplifyapp.com/",
+    github_link: "https://github.com/Proj-Valentine/onlinestore",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, certificates };

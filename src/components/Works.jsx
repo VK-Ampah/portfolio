@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import {Tilt} from "react-tilt";
 import { motion } from "framer-motion";
 
@@ -23,7 +24,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+        className='bg-primary p-5 rounded-2xl sm:w-[360px] w-full border-2'
       >
         <div className='relative w-full h-[230px]'>
           <img

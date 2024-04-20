@@ -30,6 +30,12 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import awscloudfoundations from "./awscloudfoundations.png";
+import awscloudarchitecting from "./awscloudarchitecting.png";
+import awsclouddev from "./awsclouddev.png";
+import streamfy from "./streamfy.png";
+import swipe from "./swipe.png";
+import onlinestore from "./onlinestore.png";
 
 export {
   logo,
@@ -60,5 +66,11 @@ export {
   carrent,
   jobit,
   tripguide,
-  logoblack
+  logoblack,
+  awscloudfoundations,
+  awscloudarchitecting,
+  awsclouddev,
+  streamfy,
+  swipe,
+  onlinestore,
 };

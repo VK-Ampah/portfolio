@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unknown-property */
+/* eslint-disable react/prop-types */
 // import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
@@ -56,6 +58,11 @@ const About = () => {
        and collaborative team efforts.
       </motion.p>
 
+
+
+      <div className='mt-20'>
+        <h1 className='text-center text-white text-[36px] font-bold'>My services</h1>
+      </div>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />

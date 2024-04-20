@@ -8,25 +8,23 @@ import CanvasLoader from "../Loader";
 import PropTypes from 'prop-types';
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF("./desktop_pc/scene.gltf");
+  const computer = useGLTF("./computer/scene.gltf");
 
   return (
     <mesh>
-      <hemisphereLight intensity={0.15} groundColor='black' />
+      <hemisphereLight intensity={1} skyColor={'#ffffff'} groundColor={'#000000'} />
       <spotLight
-        // eslint-disable-next-line react/no-unknown-property
-        position={[-20, 50, 10]}
-        // eslint-disable-next-line react/no-unknown-property
-        angle={0.12}
+        position={[0, 50, 0]}
+        angle={0.3}
         penumbra={1}
-        intensity={1}
+        intensity={3}
         castShadow
-        shadow-mapSize={1024}
+        shadow-mapSize={2048}
       />
-      <pointLight intensity={1} />
+      <pointLight position={[0, 0, 0]} intensity={1} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.7 : 0.75}
+        scale={isMobile ? 4.5 : 6}
         position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
       />

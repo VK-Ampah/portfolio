@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -15,8 +16,9 @@ const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
       contentStyle={{
-        background: "#1d1836",
+        background: "#000000",
         color: "#fff",
+        border: "2px solid #232631",
       }}
       contentArrowStyle={{ borderRight: "7px solid  #232631" }}
       date={experience.date}
@@ -63,7 +65,7 @@ const Experience = () => {
           What I have done so far
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Work Experience.
+          Work Experience
         </h2>
       </motion.div>
 
