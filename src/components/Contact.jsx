@@ -19,6 +19,7 @@ const Contact = () => {
     message: "",
   });
 
+
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
@@ -39,19 +40,23 @@ const Contact = () => {
       .send(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+
+      //   'service_p6ewnch',
+      //  'template_rc8r2ts',
         {
           from_name: form.name,
           to_name: "Valentine Ampah",
           from_email: form.email,
-          to_email: "vkampah28@gmail.com",
-          message: form.message,
-        },
+          to_email: "vkampah@mun.com",
+          message: form.message + " - from: " + form.email,
+        },  
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        // '5W_nxSXHXepH8e0YK'
       )
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          alert(`Thank you, ${form.name}, I will get back to you as soon as possible.`);
 
           setForm({
             name: "",
