@@ -1,8 +1,8 @@
 import {
-  mobile,
-  backend,
+  // mobile,
+  // backend,
   // creator,
-  web,
+  // web,
   javascript,
   typescript,
   html,
@@ -39,6 +39,9 @@ import {
   java,
   sql,
   spark,
+  cloud,
+  data,
+  fullstack,
 } from "../assets";
 
 export const navLinks = [
@@ -75,15 +78,15 @@ export const navLinks = [
 const services = [
   {
     title: "Full-Stack Developer",
-    icon: web,
+    icon: fullstack,
   },
   {
     title: "Big Data Engineer",
-    icon: mobile,
+    icon: data,
   },
   {
     title: "Cloud Architecting",
-    icon: backend,
+    icon: cloud,
   },
 
 ];

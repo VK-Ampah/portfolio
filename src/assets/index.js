@@ -53,6 +53,10 @@ import url from "./url.png";
 import logocolor from "./png/logocolor.png";
 import logonobackground from "./png/logonobackground.png";
 
+import cloud from "./cloud.png";
+import data from "./data.png";
+import fullstack from "./fullstack.png";
+
 
 export {
   logo,
@@ -105,5 +109,8 @@ export {
   url,
   logocolor,
   logonobackground,
+  cloud,
+  data,
+  fullstack,
 
 };
