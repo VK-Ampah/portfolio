@@ -50,6 +50,10 @@ import profile from "./profile.png";
 import profile2 from "./profile2.png";  
 import url from "./url.png";
 
+import logocolor from "./png/logocolor.png";
+import logonobackground from "./png/logonobackground.png";
+
+
 export {
   logo,
   backend,
@@ -99,5 +103,7 @@ export {
   profile,
   profile2,
   url,
+  logocolor,
+  logonobackground,
 
 };

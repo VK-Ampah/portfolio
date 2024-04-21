@@ -233,8 +233,8 @@ const experiences = [
     ],
   },
   {
-    title: "SQL Developer, Newark Community Health Center Inc	",
-    company_name: "Shopify",
+    title: "SQL Developer",
+    company_name: "Newark Community Health Center Inc",
     icon: sql,
     iconBg: "#383E56",
     date: "Jan 2016 - Dec 2018",

@@ -4,10 +4,14 @@ import { styles } from "../styles";
 // import { ComputersCanvas } from "./canvas";
 // import { StarsCanvas } from "./canvas";
 // import { profile} from "../assets";
+import {
+  // logocolor, 
+  logonobackground} from "../assets";
+
 
 const Hero = () => {
   return (
-    <section className={`relative w-full h-screen mx-auto bg-hero-pattern`}>
+    <section className={`relative w-full h-screen mx-auto bg-hero-pattern `}>
       <div className=' bg-black  flex flex-col'>
         <div
           className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
@@ -27,13 +31,14 @@ const Hero = () => {
               secured,<br className='xs:block hidden' />robust and scalable big data solutions and 
               web applications <br className='xs:block hidden' />leveraging the power of cloud computing.
             </p>
-            {/* <div className="flex flex-col justify-center items-center">
+            <div className="absolute right-0 bottom-0 flex justify-center items-center bg-cover w-full h-[300px]">
+              
               <img 
-                src={profile} 
+                src={logonobackground} 
                 alt='hero' 
-                className=' absolote bottom-0 w-[300px] h-[300px] object-contain'
+                className=' absolote bottom-5 w-[400px] h-[300px] object-contain'
               />
-            </div> */}
+            </div>
           </div>
         </div>
 

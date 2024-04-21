@@ -61,7 +61,7 @@ const About = () => {
 
 
       <div className='mt-20'>
-        <h1 className='text-center text-white text-[36px] font-bold'>My services</h1>
+        <h1 className={`${styles.sectionHeadText} text-center`}>My services</h1>
       </div>
       <div className='mt-20 flex justify-center items-center flex-wrap gap-10'>
         {services.map((service, index) => (
