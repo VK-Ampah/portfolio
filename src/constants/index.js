@@ -245,19 +245,19 @@ const experiences = [
 "Resolved 60% of reporting and design issues, ensuring seamless data visualization and maintaining high data accuracy" 
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "1949 Barber Shop",
-    icon: nodejs,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using node js and other related technologies.",
-      "Collaborating with cross-functional teams including CEO, Team managers, to create a fully responsive web app.",
-      "Implementing user authentication with passport.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "1949 Barber Shop",
+  //   icon: nodejs,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using node js and other related technologies.",
+  //     "Collaborating with cross-functional teams including CEO, Team managers, to create a fully responsive web app.",
+  //     "Implementing user authentication with passport.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
