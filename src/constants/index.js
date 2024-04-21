@@ -1,34 +1,44 @@
 import {
   mobile,
   backend,
-  creator,
+  // creator,
   web,
   javascript,
   typescript,
   html,
   css,
-  reactjs,
-  redux,
-  tailwind,
+  // reactjs,
+  // redux,
+  // tailwind,
   nodejs,
   mongodb,
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  // meta,
+  // starbucks,
+  // tesla,
+  // shopify,
   // carrent,
   // jobit,
   // tripguide,
-  threejs,
+  // threejs,
   awscloudfoundations,
   awscloudarchitecting,
   awsclouddev,
   streamfy,
   swipe,
   onlinestore,
+  medium,
+  linkedin,
+  github2,
+  python,
+  aws,
+  azure,
+  gcp,
+  java,
+  sql,
+  spark,
 } from "../assets";
 
 export const navLinks = [
@@ -37,8 +47,8 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "about",
+    title: "Skills",
   },
   {
     id: "contact",
@@ -46,10 +56,10 @@ export const navLinks = [
   },
   {
     id: "certifications",
-    title: "Certifications",
+    title: "Certs",
   },
   {
-    id: "work",
+    id: "experience",
     title: "Experience",
   },
   {
@@ -72,13 +82,10 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Cloud Architect",
+    title: "Cloud Architecting",
     icon: backend,
   },
-  {
-    title: "Psychologist",
-    icon: creator,
-  },
+
 ];
 
 const certificates = [
@@ -106,46 +113,28 @@ const certificates = [
 
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
+
+  // {
+  //   name: "React JS",
+  //   icon: reactjs,
+  // },
+  // // {
+  // //   name: "Redux Toolkit",
+  // //   icon: redux,
+  // // },
+  // {
+  //   name: "Tailwind CSS",
+  //   icon: tailwind,
+  // },
+
   {
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
@@ -158,13 +147,66 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+    {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+
+  
 ];
+
+const programming = [
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "java",
+    icon: java,
+  },
+  {
+    name: "python ",
+    icon: python,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+// {
+//    name: "SQL",
+//     icon: sql,
+// }
+]
+
+const cloudtech = [
+    {
+    name: "AWS",
+    icon: aws,
+  },
+  {
+    name: "azure",
+    icon: azure,
+  },
+  {
+    name: "gcp",
+    icon: gcp,
+  },
+]
+
 
 const experiences = [
   {
     title: "Software Enigeneer (Data)",
     company_name: "D1g1t",
-    icon: starbucks,
+    icon: python,
     iconBg: "#383E56",
     date: "May 2022 - Dec 2023",
     points: [
@@ -179,7 +221,7 @@ const experiences = [
   {
     title: "Data Engineer",
     company_name: "Staples",
-    icon: tesla,
+    icon: spark,
     iconBg: "#E6DEDD",
     date: "Feb 2020 - Jan 2022  ",
     points: [ 
@@ -193,7 +235,7 @@ const experiences = [
   {
     title: "SQL Developer, Newark Community Health Center Inc	",
     company_name: "Shopify",
-    icon: shopify,
+    icon: sql,
     iconBg: "#383E56",
     date: "Jan 2016 - Dec 2018",
     points: [
@@ -206,7 +248,7 @@ const experiences = [
   {
     title: "Full stack Developer",
     company_name: "1949 Barber Shop",
-    icon: meta,
+    icon: nodejs,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
@@ -326,4 +368,32 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects, certificates };
+const FooterData = 
+ [
+    {
+      id: 1,
+      name: "github",
+      url: "https://github.com/Proj-Valentine",
+      icon: github2,
+    },
+    {
+      id: 2,
+      name: "github2",
+      url: "https://github.com/VK-Ampah/",
+      icon: git,
+    },
+    {
+      id: 2,
+      name: "linkedin",
+      url: "https://www.linkedin.com/in/valentine-kwame-ampah-b92a0198/",
+      icon: linkedin,
+    },
+    {
+      id: 3,
+      name: "meduim",
+      url: "https://medium.com/@vkampah28",
+      icon: medium,
+    },
+  ]
+
+export { services, technologies,cloudtech, programming, experiences, testimonials, projects, certificates, FooterData};

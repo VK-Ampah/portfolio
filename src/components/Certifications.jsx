@@ -2,6 +2,8 @@
 /* eslint-disable react/no-unknown-property */
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
+import { styles } from "../styles";
+
 
 // import { styles } from "../styles";
 import { 
@@ -41,8 +43,13 @@ const ServiceCard = ({ index, title, icon }) => (
 );
 const Certifications = () => {
   return (
-    <div>        
-        <h1 className='text-center text-white text-[36px] font-bold'>Certifications</h1>
+    
+    <div className='flex flex-col justify-center items-center'>
+
+        
+
+        
+        <h1 className= {`${styles.sectionHeadText} text-center`}>Certifications</h1>
            <div className='mt-20 flex flex-wrap gap-10'>
         {certificates.map((service, index) => (
             <a href={service.url} key={service.title}>

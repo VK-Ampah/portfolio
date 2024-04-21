@@ -21,6 +21,13 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png";
+import aws from "./tech/aws.png";
+import azure from "./tech/azure.png";
+import gcp from "./tech/gcp.png";
+import java from "./tech/java.png";
+import spark from "./tech/spark.png";
+import sql from "./tech/sql.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -36,6 +43,12 @@ import awsclouddev from "./awsclouddev.png";
 import streamfy from "./streamfy.png";
 import swipe from "./swipe.png";
 import onlinestore from "./onlinestore.png";
+import medium from "./medium.svg";
+import linkedin from "./linkedin.svg";
+import github2 from "./github2.svg";
+import profile from "./profile.png";
+import profile2 from "./profile2.png";  
+import url from "./url.png";
 
 export {
   logo,
@@ -73,4 +86,18 @@ export {
   streamfy,
   swipe,
   onlinestore,
+  medium,
+  linkedin,
+  github2,
+  python,
+  aws,
+  azure,
+  gcp,
+  java,
+  spark,
+  sql,
+  profile,
+  profile2,
+  url,
+
 };

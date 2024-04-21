@@ -12,22 +12,22 @@ const Computers = ({ isMobile }) => {
 
   return (
     <mesh>
-      <hemisphereLight intensity={1} skyColor={'#ffffff'} groundColor={'#000000'} />
-      <spotLight
-        position={[0, 50, 0]}
-        angle={0.3}
-        penumbra={1}
-        intensity={3}
-        castShadow
-        shadow-mapSize={2048}
-      />
-      <pointLight position={[0, 0, 0]} intensity={1} />
-      <primitive
-        object={computer.scene}
-        scale={isMobile ? 4.5 : 6}
-        position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
-        rotation={[-0.01, -0.2, -0.1]}
-      />
+          <hemisphereLight intensity={1} groundColor='' />
+          <spotLight
+            position={[-10, 40, 10]}
+            angle={0.12}
+            penumbra={1}
+            intensity={1}
+            castShadow
+            shadow-mapSize={1024}
+          />
+          <pointLight intensity={1} />
+          <primitive
+            object={computer.scene}
+            scale={isMobile ? 0.2 : 0.4}
+            position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
+            rotation={[-0.01, -0.2, -0.1]}
+          />
     </mesh>
   );
 };
@@ -74,6 +74,7 @@ const ComputersCanvas = () => {
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
+        <ambientLight intensity={0.25} />
         <Computers isMobile={isMobile} />
       </Suspense>
 

@@ -41,13 +41,13 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        {/* <p className={styles.sectionSubText}>Introduction</p> */}
+        <h2 className={styles.sectionHeadText}>Profile</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-slate-200 text-[15px] max-w-3xl leading-[30px]'
       >
        Innovative Data Engineer and Software Developer with over 7 years of 
        experience in optimizing cloud infrastructure for business process enhancement. 
@@ -63,7 +63,7 @@ const About = () => {
       <div className='mt-20'>
         <h1 className='text-center text-white text-[36px] font-bold'>My services</h1>
       </div>
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-20 flex justify-center items-center flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

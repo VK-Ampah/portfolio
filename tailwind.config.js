@@ -1,3 +1,5 @@
+/* eslint-disable no-undef */
+// const module = require('module');
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{js,jsx}"],
@@ -17,10 +19,13 @@ module.exports = {
       },
       screens: {
         xs: "450px",
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
       },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
-        // "hero-pattern": "url('/src/assets/bubbles.svg')",
+        // "hero-pattern": "url('/src/assets/heropat.png')",
       },
     },
   },
