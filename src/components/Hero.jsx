@@ -2,7 +2,7 @@
 
 import { styles } from "../styles";
 // import { ComputersCanvas } from "./canvas";
-// import { StarsCanvas } from "./canvas";
+import { StarsCanvas } from "./canvas";
 import { profile} from "../assets";
 
 const Hero = () => {
@@ -38,7 +38,7 @@ const Hero = () => {
         </div>
 
 
-      {/* <StarsCanvas /> */}
+      <StarsCanvas />
 
       {/* <ComputersCanvas /> */}
 
