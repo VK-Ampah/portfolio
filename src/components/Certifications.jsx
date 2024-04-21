@@ -52,7 +52,7 @@ const Certifications = () => {
         <h1 className= {`${styles.sectionHeadText} text-center`}>Certifications</h1>
            <div className='mt-20 flex flex-wrap gap-10'>
         {certificates.map((service, index) => (
-            <a href={service.url} key={service.title}>
+            <a href={service.url} key={service.title} target='_blank'  >
                 <ServiceCard key={service.title} index={index} {...service} />
             </a>
         ))}

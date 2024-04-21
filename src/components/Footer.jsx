@@ -3,8 +3,9 @@ import { SectionWrapper } from '../hoc/'
 
 const Footer = () => {
   return (
-    <div>
+    <div className='flex flex-col justify-center items-center'>
 
+        <h2 className='text-white text-xl'>@socials</h2>
         <footer className='bg-black text-white text-center flex justify-center py-10'>
 
             {FooterData.map((data, index) => (
