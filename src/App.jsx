@@ -16,7 +16,7 @@ const App = () => {
   // }, []);
 
     useEffect(() => {
-    toast.info('This page has been repurposed');
+    toast.info('This page has been updated');
   }, []);
   return (
     <BrowserRouter>
