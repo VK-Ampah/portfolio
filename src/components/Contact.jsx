@@ -7,9 +7,7 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
-// template_njng66s // email template ID from emailjs
-// servie id: service_1o512kf // email service ID from emailjs
-// account public key: 5W_nxSXHXepH8e0YK
+
 
 const Contact = () => {
   const formRef = useRef();
@@ -96,7 +94,7 @@ const Contact = () => {
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder="What's your preffered name?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -107,7 +105,7 @@ const Contact = () => {
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
+              placeholder="Enter your email address"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -118,7 +116,7 @@ const Contact = () => {
               name='message'
               value={form.message}
               onChange={handleChange}
-              placeholder='What you want to say?'
+              placeholder='Leave a message'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
