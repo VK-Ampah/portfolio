@@ -42,6 +42,8 @@ import {
   cloud,
   data,
   fullstack,
+  reub,
+  // profile,
 } from "../assets";
 
 export const navLinks = [
@@ -266,27 +268,30 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    "An expert data analyst with proficiency in Python and SQL, delivering actionable business insights through advanced statistical and predictive analysis.",
+    name: "Reuben Addisson",
+    designation: "Assistant Professor of Kinesiology ",
+    company: "Depauw University",
+    image: reub,
+    profile: "https://www.linkedin.com/in/reuben-newton-addison-ph-d-04394870/",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "A skilled data engineer with a strong background in cloud computing and data architecture, adept at optimizing data workflows for business intelligence and analytics.",
+    name: "Felix Ayesu",
+    designation: "Professor of Psychology & Data Engineer",
+    company: "HomeStars",
+    // image: "https://randomuser.me/api/portraits/men/5.jpg",
+    profile: "https://www.linkedin.com/in/felix-a-38b55423b/",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "A highly skilled software engineer with a keen eye for detail and a passion for creating innovative data  and api integrations.",
+    name: "Nana Yaw Bediako",
+    designation: "Senior Data Analyst",
+    company: "Air Canada",
+    // image: "https://randomuser.me/api/portraits/women/6.jpg",
+    profile: "https://www.linkedin.com/in/nana-yaw-donkor/",
   },
 ];
 

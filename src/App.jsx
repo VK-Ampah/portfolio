@@ -4,7 +4,7 @@ import { toast,ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 import { About, Contact, Experience, 
-  // Feedbacks, 
+  Feedbacks, 
   Hero, Navbar, Tech, Works, StarsCanvas, Certifications, Footer } from "./components";
 
 // toast.configure();
@@ -33,7 +33,7 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
-        {/* <Feedbacks /> */}
+        <Feedbacks />
         <div className='relative z-0'>
           <Contact />
           <StarsCanvas />

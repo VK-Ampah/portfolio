@@ -56,6 +56,7 @@ import logonobackground from "./png/logonobackground.png";
 import cloud from "./cloud.png";
 import data from "./data.png";
 import fullstack from "./fullstack.png";
+import reub from "./reub.jpg";    
 
 
 export {
@@ -112,5 +113,6 @@ export {
   cloud,
   data,
   fullstack,
+  reub,
 
 };
