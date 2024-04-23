@@ -28,7 +28,7 @@ import {
   awsclouddev,
   streamfy,
   swipe,
-  onlinestore,
+  // onlinestore,
   medium,
   linkedin,
   github2,
@@ -42,8 +42,14 @@ import {
   cloud,
   data,
   fullstack,
+  // etl_airflow,
+  airflow,
+  pyproject,
+  search,
+  erd,
   // reub,
   // profile,
+
 } from "../assets";
 
 export const navLinks = [
@@ -70,6 +76,10 @@ export const navLinks = [
   {
     id: "tech",
     title: "Tech",
+  },
+  {
+    id: "project",
+    title: "Projects",
   },
   {
     id: "feedbacks",
@@ -244,10 +254,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan 2016 - Dec 2018",
     points: [
-"Developed and optimized Tableau reports, driving a 30% increase in data-driven decision-making.",
-"Streamlined the reporting process, resulting in a 25% faster turnaround for data insights.",
-"Defined Key Performance Indicators (KPIs) and metrics for performance tracking, resulting in improved business evaluation and alignment with strategic goals",
-"Resolved 60% of reporting and design issues, ensuring seamless data visualization and maintaining high data accuracy" 
+    "Developed and optimized Tableau reports, driving a 30% increase in data-driven decision-making.",
+    "Streamlined the reporting process, resulting in a 25% faster turnaround for data insights.",
+    "Defined Key Performance Indicators (KPIs) and metrics for performance tracking, resulting in improved business evaluation and alignment with strategic goals",
+    "Resolved 60% of reporting and design issues, ensuring seamless data visualization and maintaining high data accuracy" 
     ],
   },
   // {
@@ -315,11 +325,11 @@ const projects = [
       },
       {
         name: "typescript",
-        color: "yellow-text-gradient",
+        color: "blue-text-gradient",
       },
       {
         name: "clerk",
-        color: "red-text-gradient",
+         color: "green-text-gradient",
       },
       {
         name: "stripe",
@@ -352,28 +362,131 @@ const projects = [
     source_code_link: "https://swipe.vkampah-app.com/sign-in",
     github_link: "https://github.com/Proj-Valentine/mymobileapp",
   },
+  // {
+  //   name: "eCommerce Platform",
+  //   description:
+  //     "online clothing store that allows users to browse, search, and purchase products, providing a seamless shopping experience for customers.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Tailwind CSS",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: onlinestore,
+  //   source_code_link: "https://main.d2zkxheui2vt8a.amplifyapp.com/",
+  //   github_link: "https://github.com/Proj-Valentine/onlinestore",
+  // },
   {
-    name: "eCommerce Platform",
+    name: "Search Engine",
     description:
-      "online clothing store that allows users to browse, search, and purchase products, providing a seamless shopping experience for customers.",
+      "Search engine that allows authenticated users to dual search from postgres or Mongodb or both, providing relevant search results based on user queries and filters.",
     tags: [
       {
-        name: "react",
+        name: "postgress",
         color: "blue-text-gradient",
       },
       {
+        name: "MongoDB Atlas",
+        color: "green-text-gradient",
+      },
+
+      {
         name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Api integration",
+         color: "green-text-gradient",
+
+      },
+      {
+        name: "node js",
+         color: "blue-text-gradient",
+     
+      }
+    ],
+    image: search,
+    source_code_link: "https://github.com/VK-Ampah/FinalSprint_S3",
+    github_link: "https://github.com/VK-Ampah/FinalSprint_S3"
+  },
+
+  {
+    name: "Python Automation",
+    description:
+      "Tool that automates processing log files and generating reports, saving time and effort for data analysts.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Bash",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "unittest",
         color: "pink-text-gradient",
       },
     ],
-    image: onlinestore,
-    source_code_link: "https://main.d2zkxheui2vt8a.amplifyapp.com/",
-    github_link: "https://github.com/Proj-Valentine/onlinestore",
+    image: pyproject,
+    source_code_link: "https://github.com/Proj-Valentine/Python_Projects",
+    github_link: "https://github.com/Proj-Valentine/Python_Projects",
   },
+
+  {
+    name: "ETL_python_airflow",
+    description:
+      "ETL pipeline that extracts data from CSV files, transforms it using Python scripts, and loads it into a database using Apache Airflow for task orchestration.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Airflow",
+        color: "green-text-gradient",
+      },
+      {
+        name: "csv",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: airflow,
+    source_code_link: "https://github.com/Proj-Valentine/ETL_AIRFLOW",
+    github_link: "https://github.com/Proj-Valentine/ETL_AIRFLOW",
+  },
+
+{
+    name: "Data Modeling ERD",    
+    description:
+      "ETL pipeline that extracts data from CSV files, transforms it using Python scripts, and loads it into a database using Apache Airflow for task orchestration.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Airflow",
+        color: "green-text-gradient",
+      },
+      {
+        name: "csv",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: erd,
+    source_code_link: "https://github.com/Proj-Valentine/database_design_erd",
+    github_link: "https://github.com/Proj-Valentine/database_design_erd",
+}
+
 ];
 
 const FooterData = 

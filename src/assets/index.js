@@ -58,6 +58,11 @@ import data from "./data.png";
 import fullstack from "./fullstack.png";
 import reub from "./reub.jpg";    
 
+import etl_airflow from "./etl_airflow.png";
+import airflow from "./airflow.png";
+import pyproject from "./pyproject.png";
+import search from "./search.png";
+import erd from "./erd.jpeg";
 
 export {
   logo,
@@ -114,5 +119,10 @@ export {
   data,
   fullstack,
   reub,
+  etl_airflow,
+  airflow,
+  pyproject,
+  search,
+  erd
 
 };
