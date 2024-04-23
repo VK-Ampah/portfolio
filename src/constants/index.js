@@ -42,7 +42,7 @@ import {
   cloud,
   data,
   fullstack,
-  reub,
+  // reub,
   // profile,
 } from "../assets";
 
@@ -266,24 +266,24 @@ const experiences = [
 ];
 
 const testimonials = [
-  {
-    testimonial:
-    "An expert data analyst with proficiency in Python and SQL, delivering actionable business insights through advanced statistical and predictive analysis.",
-    name: "Reuben Addisson",
-    designation: "Assistant Professor of Kinesiology ",
-    company: "Depauw University",
-    image: reub,
-    profile: "https://www.linkedin.com/in/reuben-newton-addison-ph-d-04394870/",
-  },
-  {
-    testimonial:
-      "A skilled data engineer with a strong background in cloud computing and data architecture, adept at optimizing data workflows for business intelligence and analytics.",
-    name: "Felix Ayesu",
-    designation: "Professor of Psychology & Data Engineer",
-    company: "HomeStars",
-    // image: "https://randomuser.me/api/portraits/men/5.jpg",
-    profile: "https://www.linkedin.com/in/felix-a-38b55423b/",
-  },
+  // {
+  //   testimonial:
+  //   "An expert data analyst with proficiency in Python and SQL, delivering actionable business insights through advanced statistical and predictive analysis.",
+  //   name: "Reuben Addisson",
+  //   designation: "Assistant Professor of Kinesiology ",
+  //   company: "Depauw University",
+  //   image: reub,
+  //   profile: "https://www.linkedin.com/in/reuben-newton-addison-ph-d-04394870/",
+  // },
+  // {
+  //   testimonial:
+  //     "A skilled data engineer with a strong background in cloud computing and data architecture, adept at optimizing data workflows for business intelligence and analytics.",
+  //   name: "Felix Ayesu",
+  //   designation: "Professor of Psychology & Data Engineer",
+  //   company: "HomeStars",
+  //   // image: "https://randomuser.me/api/portraits/men/5.jpg",
+  //   profile: "https://www.linkedin.com/in/felix-a-38b55423b/",
+  // },
   {
     testimonial:
       "A highly skilled software engineer with a keen eye for detail and a passion for creating innovative data  and api integrations.",
