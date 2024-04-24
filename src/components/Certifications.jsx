@@ -18,7 +18,7 @@ const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card '
     >
       <div
         options={{
@@ -45,9 +45,6 @@ const Certifications = () => {
   return (
     
     <div className='flex flex-col justify-center items-center'>
-
-        
-
         
         <h1 className= {`${styles.sectionHeadText} text-center`}>Certifications</h1>
            <div className='mt-20 flex flex-wrap gap-10'>
@@ -57,7 +54,7 @@ const Certifications = () => {
             </a>
         ))}
       </div>
-      <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="78f5aa97-95d1-48b3-a51e-b10710f559da" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+      {/* <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="78f5aa97-95d1-48b3-a51e-b10710f559da" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script> */}
     </div>
   )
 }

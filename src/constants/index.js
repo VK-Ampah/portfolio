@@ -467,7 +467,7 @@ const projects = [
 {
     name: "Data Modeling ERD",    
     description:
-      "ETL pipeline that extracts data from CSV files, transforms it using Python scripts, and loads it into a database using Apache Airflow for task orchestration.",
+      "Database design project that models the relationships between entities in a database using an Entity-Relationship Diagram (ERD-crow's feet) for data visualization and analysis",
     tags: [
       {
         name: "python",
