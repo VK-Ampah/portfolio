@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
-import { useEffect } from 'react';
-import { toast,ToastContainer } from 'react-toastify';
+// import { useEffect } from 'react';
+// import { toast,ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 import { About, Contact, Experience, 
@@ -15,13 +15,13 @@ const App = () => {
   //   alert('This page has been repurposed');
   // }, []);
 
-    useEffect(() => {
-    toast.info('This page has been updated');
-  }, []);
+  //   useEffect(() => {
+  //   toast.info('This page has been updated');
+  // }, []);
   return (
     <BrowserRouter>
-     <ToastContainer />
-      <div className='relative z-0 bg-primary '>
+     {/* <ToastContainer /> */}
+      <div className='relative z-0 bg-slate-950 '>
         <div className=' bg-cover bg-no-repeat bg-center'>
           <Navbar />
           <Hero />

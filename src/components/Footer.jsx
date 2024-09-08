@@ -6,7 +6,7 @@ const Footer = () => {
     <div className='flex flex-col justify-center items-center'>
 
         <h2 className='text-white text-xl'>@socials</h2>
-        <footer className='bg-black text-white text-center flex justify-center py-10'>
+        <footer className=' text-white text-center flex justify-center py-10'>
 
             {FooterData.map((data, index) => (
                 <div key={index} className='text-white hover:text-gray-400 flex flex-col items-start justify-end'>
@@ -19,7 +19,7 @@ const Footer = () => {
                 </div>
             ))}            
         </footer>   
-        <div className='bg-black text-white text-center flex justify-center py-10'>
+        <div className=' text-white text-center flex justify-center py-10'>
             <p className='text-white'>© 2024 All rights reserved</p>
         </div>
       

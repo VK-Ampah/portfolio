@@ -63,6 +63,7 @@ import airflow from "./airflow.png";
 import pyproject from "./pyproject.png";
 import search from "./search.png";
 import erd from "./erd.jpeg";
+import nanaB from "./nanaB.png";
 
 export {
   logo,
@@ -123,6 +124,7 @@ export {
   airflow,
   pyproject,
   search,
-  erd
+  erd,
+  nanaB,
 
 };

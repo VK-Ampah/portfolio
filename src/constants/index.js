@@ -49,6 +49,7 @@ import {
   erd,
   // reub,
   // profile,
+  nanaB
 
 } from "../assets";
 
@@ -218,6 +219,45 @@ const cloudtech = [
 
 
 const experiences = [
+   {
+    title: "Freelance Software Developer",
+    company_name: "1949 Barber Shop(football)",
+    icon: java,
+    iconBg: "#E6DEDD",
+    date: "July 2024 - Present",
+    points: [
+      "Designed the overall microservice architecture for the application, integrating backend and frontend components for scalability and security.",
+      "Designed and deployed microservice-based backend using AWS EC2, Docker, and Spring Boot, with SSL-enabled HTTPS via AWS Certificate Manager and Apache Server as a reverse proxy.",
+      "Configured Application Load Balancer and Route 53 for efficient traffic distribution, domain management, and failover support.",
+      "Developed secure user management with sign-in, sign-up, role-based access control, and route protection, including CRUD operations on user profiles.",
+      "Containerized Spring Boot API in Docker, delivering RESTful services and managing API access with custom user security.",
+    ],
+    },
+   {
+    title: "Chief Technology Officer/Developer",
+    company_name: "Ciana Insights (Startup)",
+    icon: nodejs,
+    iconBg: "#E6DEDD",
+    date: "May 2024 - Present",
+    points: [
+     "Developed a backend server with Node and GPT-4 APIs for an AI voice assistant with real-time data.",
+     "Designed a responsive frontend using React, TypeScript, and for seamless server interaction",
+    ],
+    },
+    // {
+    // title: "Software Engineer (Full Stack)",
+    // company_name: "Streamfy",
+    // icon: nodejs,
+    // iconBg: "#E6DEDD",
+    // date: "Jan 2022 - Present",
+    // points: [
+    // "Developed and maintained full-stack applications using Next.js, MongoDB, and TypeScript, improving user experience and engagement by 30%",
+    // "Implemented user authentication and authorization using Clerk.io and Stripe, enhancing security and privacy for user data",
+    // "Created RESTful APIs for data retrieval and manipulation, enabling seamless data integration and ensuring data consistency",
+    // "Designed and implemented responsive UI components using Tailwind CSS, improving user interface and experience by 40%",
+    // "Integrated third-party APIs for data retrieval and processing, enabling real-time data updates and enhancing user engagement by 20%"
+    // ],
+    // },
   {
     title: "Software Enigeneer (Data)",
     company_name: "D1g1t",
@@ -301,6 +341,7 @@ const testimonials = [
     designation: "Senior Data Analyst",
     company: "Air Canada",
     // image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: nanaB,
     profile: "https://www.linkedin.com/in/nana-yaw-donkor/",
   },
 ];

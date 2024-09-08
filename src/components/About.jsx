@@ -49,7 +49,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-slate-200 text-[15px] max-w-3xl leading-[30px]'
       >
-       Innovative Data Engineer and Software Developer with over 7 years of 
+       Innovative Data Engineer and Software Developer with over 5 years of 
        experience in optimizing cloud infrastructure for business process enhancement. 
        Expertise in full-stack development, cloud computing, and data engineering. 
        Proven track record of leveraging AWS and Azure to architect and 
