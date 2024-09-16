@@ -361,7 +361,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "tailwindCSS",
         color: "pink-text-gradient",
       },
       {
@@ -391,11 +391,11 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "Appwritecloud",
+        name: "appwritecloud",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwindCSS",
         color: "pink-text-gradient",
       },
     ],
@@ -440,11 +440,11 @@ const projects = [
       },
 
       {
-        name: "Tailwind CSS",
+        name: "tailwindCSS",
         color: "pink-text-gradient",
       },
       {
-        name: "Api integration",
+        name: "api integration",
          color: "green-text-gradient",
 
       },
@@ -492,7 +492,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "Airflow",
+        name: "airflow",
         color: "green-text-gradient",
       },
       {
@@ -511,17 +511,17 @@ const projects = [
       "Database design project that models the relationships between entities in a database using an Entity-Relationship Diagram (ERD-crow's feet) for data visualization and analysis",
     tags: [
       {
-        name: "python",
+        name: "lucidchart",
         color: "blue-text-gradient",
       },
-      {
-        name: "Airflow",
-        color: "green-text-gradient",
-      },
-      {
-        name: "csv",
-        color: "pink-text-gradient",
-      },
+      // {
+      //   name: "Airflow",
+      //   color: "green-text-gradient",
+      // },
+      // {
+      //   name: "csv",
+      //   color: "pink-text-gradient",
+      // },
     ],
     image: erd,
     source_code_link: "https://github.com/Proj-Valentine/database_design_erd",
