@@ -96,7 +96,7 @@ const Works = () => {
         along with languages like JavaScript, TypeScript, Java, Python and 
         runtime environments like Node.js. I have worked with frameworks including
          React, Next.js, Express, and Spring Boot, building search engines, 
-         API integrations, data pipelines, and web applications. 
+         REST API&apos;s, data pipelines, and web applications. 
          I also leverage cloud platforms like AWS, Azure, and Google Cloud, 
          as well as CI/CD tools such as Docker. Each project includes a 
          description and source code link, highlighting my technical versatility 
