@@ -91,13 +91,16 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-slate-200 text-[15px] max-w-3xl leading-[30px]'
         >
-          My portfolio features full-stack applications 
-          (social media, event management, e-commerce) 
-          using MongoDB, PostgreSQL, Node.js, JavaScript, Java, and Express,
-          plus command line tools, search engines, API integrations, 
-          and Python automation. Each project includes descriptions, 
-          and link to the source code, demonstrating my technical versatility 
-          and problem-solving skills.
+        My portfolio showcases full-stack applications and big data processing 
+        projects using SQL/NoSQL databases such as MongoDB, PostgreSQL, and MySQL, 
+        along with languages like JavaScript, TypeScript, Java, Python and 
+        runtime environments like Node.js. I have worked with frameworks including
+         React, Next.js, Express, and Spring Boot, building search engines, 
+         API integrations, data pipelines, and web applications. 
+         I also leverage cloud platforms like AWS, Azure, and Google Cloud, 
+         as well as CI/CD tools such as Docker. Each project includes a 
+         description and source code link, highlighting my technical versatility 
+         and problem-solving skills.
         </motion.p>
       </div>
 
