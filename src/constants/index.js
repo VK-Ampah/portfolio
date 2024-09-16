@@ -514,14 +514,14 @@ const projects = [
         name: "lucidchart",
         color: "blue-text-gradient",
       },
-      // {
-      //   name: "Airflow",
-      //   color: "green-text-gradient",
-      // },
-      // {
-      //   name: "csv",
-      //   color: "pink-text-gradient",
-      // },
+      {
+        name: "crow's feet",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ERD",
+        color: "pink-text-gradient",
+      },
     ],
     image: erd,
     source_code_link: "https://github.com/Proj-Valentine/database_design_erd",
