@@ -1,4 +1,4 @@
-import { BallCanvas } from "./canvas";
+// import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { technologies,cloudtech,programming } from "../constants";
 import { styles } from "../styles";
@@ -18,7 +18,7 @@ const Tech = () => {
           data-tooltip-content={technology.name}
           data-tooltip-place="top"
           className='w-12 h-12' key={technology.name}>
-            <BallCanvas icon={technology.icon} />
+            <img src={technology.icon} />
           </div>
         ))}
          <Tooltip id="mytooltip" />
@@ -31,7 +31,7 @@ const Tech = () => {
           data-tooltip-id="my-tooltip"
           data-tooltip-content={technology.name}
           data-tooltip-place="top"className='w-12 h-12' key={technology.name}>
-            <BallCanvas icon={technology.icon} />
+            <img src={technology.icon} />
               
           </div>
         ))}
@@ -44,7 +44,7 @@ const Tech = () => {
           data-tooltip-content={technology.name}
           data-tooltip-place="top"className='w-12 h-12' key={technology.name}>
 
-            <BallCanvas icon={technology.icon} />
+            <img src={technology.icon} />
           </div>
         ))}
          <Tooltip id="my-tool" />
