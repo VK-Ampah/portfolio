@@ -1,5 +1,5 @@
 import { FooterData } from '../constants/'
-import { SectionWrapper } from '../hoc/'
+// import { SectionWrapper } from '../hoc/'
 
 const Footer = () => {
   return (
@@ -28,4 +28,5 @@ const Footer = () => {
 }
 
 
-export default SectionWrapper(Footer, "");
+// export default SectionWrapper(Footer, "");
+export default Footer;

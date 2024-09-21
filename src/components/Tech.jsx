@@ -1,5 +1,5 @@
 // import { BallCanvas } from "./canvas";
-import { SectionWrapper } from "../hoc";
+// import { SectionWrapper } from "../hoc";
 import { technologies,cloudtech,programming } from "../constants";
 import { styles } from "../styles";
 import { Tooltip } from 'react-tooltip'
@@ -56,5 +56,7 @@ const Tech = () => {
   );
 };
 
-const WrappedTech = SectionWrapper(Tech, "tech");
-export default WrappedTech;
+// const WrappedTech = SectionWrapper(Tech, "tech");
+// export default WrappedTech;
+
+export default Tech;

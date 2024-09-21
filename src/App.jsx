@@ -3,7 +3,8 @@ import { BrowserRouter } from "react-router-dom";
 // import { toast,ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-import { About, Contact, Experience, 
+import { About, Contact,
+  //  Experience, 
   Feedbacks, 
   Hero, Navbar, Tech, Works, 
   // StarsCanvas, 
@@ -32,7 +33,7 @@ const App = () => {
         </div>
         <About />
         <Certifications />
-        <Experience />
+        {/* <Experience /> */}
         <Tech />
         <Works />
         <Feedbacks />

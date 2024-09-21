@@ -9,7 +9,7 @@ import { styles } from "../styles";
 import { 
     // services,
     certificates } from "../constants";
-import { SectionWrapper } from "../hoc";
+// import { SectionWrapper } from "../hoc";
 // import { fadeIn, 
 //     // textVariant 
 // } from "../utils/motion";
@@ -60,4 +60,5 @@ const Certifications = () => {
 }
 
 // export default Certifications
-export default SectionWrapper(Certifications, "certifications");
+// export default SectionWrapper(Certifications, "certifications");
+export default Certifications;

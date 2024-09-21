@@ -4,7 +4,7 @@
 
 import { styles } from "../styles";
 // import { github,url } from "../assets";
-import { SectionWrapper } from "../hoc";
+// import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 // import { fadeIn, textVariant } from "../utils/motion";
 
@@ -52,5 +52,7 @@ const Works = () => {
   );
 };
 
-const WrappedWorks = SectionWrapper(Works, "project");
-export default WrappedWorks;
+// // const WrappedWorks = SectionWrapper(Works, "project");
+// export default WrappedWorks;
+
+export default Works;
