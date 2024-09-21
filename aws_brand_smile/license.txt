@@ -1,0 +1,11 @@
+Model Information:
+* title:	AWS Brand Smile
+* source:	https://sketchfab.com/3d-models/aws-brand-smile-2af9a0ff80bf4f57b539b076bb660a19
+* author:	Ark Studios Cloud Marketing Services (https://sketchfab.com/Aris_117)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "AWS Brand Smile" (https://sketchfab.com/3d-models/aws-brand-smile-2af9a0ff80bf4f57b539b076bb660a19) by Ark Studios Cloud Marketing Services (https://sketchfab.com/Aris_117) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
