@@ -8,7 +8,9 @@ import Works from './Works';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
 import Certifications from './Certifications';
-import Footer from './Footer';      
+import Footer from './Footer'; 
+import ExperienceCard from './ExperienceCard';     
+import ProjectCard from './ProjectCard';
 
 export {
   Hero,
@@ -24,5 +26,7 @@ export {
   ComputersCanvas, 
   StarsCanvas,
   Certifications,
-  Footer
+  Footer,
+  ExperienceCard,
+  ProjectCard
 }
