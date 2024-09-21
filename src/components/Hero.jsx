@@ -6,7 +6,7 @@ import { styles } from "../styles";
 // import { profile} from "../assets";
 import {
   // logocolor, 
-  logonobackground} from "../assets";
+  logonobackground} from "../../public/assets";
 
 
 const Hero = () => {

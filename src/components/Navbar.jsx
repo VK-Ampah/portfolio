@@ -10,7 +10,7 @@ import {
   //  logoblack,
    profile,
   //  profile2  
-  } from "../assets";
+  } from "../../public/assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
