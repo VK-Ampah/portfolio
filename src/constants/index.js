@@ -152,23 +152,23 @@ const technologies = [
   //   icon: threejs,
   // },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
+    name: "Figma",
     icon: figma,
   },
   {
-    name: "docker",
+    name: "Docker",
     icon: docker,
   },
     {
-    name: "HTML 5",
+    name: "HTML",
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: "CSS",
     icon: css,
   },
 
@@ -185,11 +185,11 @@ const programming = [
     icon: nodejs,
   },
   {
-    name: "java",
+    name: "Java",
     icon: java,
   },
   {
-    name: "python ",
+    name: "Python ",
     icon: python,
   },
   {
@@ -208,11 +208,11 @@ const cloudtech = [
     icon: aws,
   },
   {
-    name: "azure",
+    name: "Azure",
     icon: azure,
   },
   {
-    name: "gcp",
+    name: "GCP",
     icon: gcp,
   },
 ]
